@@ -41,3 +41,17 @@ E-Shop est une application Flutter permettant aux utilisateurs de parcourir et d
   - services/
     - auth_service.dart 
   - main.dart
+ 
+  ## Utilisation
+  ### Exécution de l'application
+      Pour exécuter l'application, suivez ces étapes :
+         1. Assurez-vous d'avoir Flutter installé sur votre machine.
+         2. Clonez ce dépôt.
+         3. Exécutez la commande suivante pour installer les dépendances  : flutter pub get
+         4. Connectez votre appareil ou lancez un émulateur.
+         5. Lancez l'application avec la commande : flutter run
+  ### Fonctionnalités
+      Écran connexion : Pour soit connecter ou s'inscrire
+      Écran d'accueil : Affiche la liste des produits disponibles , recherche et filtrer des produits .
+      Carte produit : Affiche écran détail d'un produit 
+      Panier : Permet de consulter ou supprimer des produits du panier.
