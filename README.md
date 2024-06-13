@@ -16,3 +16,28 @@ E-Shop est une application Flutter permettant aux utilisateurs de parcourir et d
    ```bash
    git clone git clone https://github.com/rehamar1/test-eShop.git
    cd test-eShop
+
+2. L'architecture :
+   Le projet suit une architecture basée sur le modèle MVC (Modèle-Vue-Contrôleur). Les fichiers sont organisés de la manière suivante :
+- lib/
+  - screens/
+    - home_screen.dart
+    - ...
+  - blocs/
+    - product/
+      - product_bloc.dart
+      - product_event.dart
+      - product_state.dart
+    - cart/
+      - cart_bloc.dart
+      - cart_event.dart
+      - cart_state.dart
+  - models/
+    - product.dart
+  - notifications/
+    - notification_service.dart
+  - repository/
+    - product_repository.dart
+  - services/
+    - auth_service.dart 
+  - main.dart
