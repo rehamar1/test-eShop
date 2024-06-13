@@ -6,7 +6,7 @@ E-Shop est une application Flutter permettant aux utilisateurs de parcourir et d
 
 ### Prérequis
 
-- Flutter 2.0 ou supérieur
+- Flutter 3.22.2
 - Un compte Firebase
 
 ### Installation
