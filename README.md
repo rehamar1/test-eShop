@@ -1,16 +1,18 @@
 # e_shop
 
-A new Flutter project.
+E-Shop est une application Flutter permettant aux utilisateurs de parcourir et d'acheter des produits en ligne. L'application utilise les APIs de [dummyjson](https://dummyjson.com/) pour obtenir les données des produits et Firebase Authentication pour l'authentification des utilisateurs.
 
-## Getting Started
+## Configuration du Projet
 
-This project is a starting point for a Flutter application.
+### Prérequis
 
-A few resources to get you started if this is your first Flutter project:
+- Flutter 2.0 ou supérieur
+- Un compte Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clonez le projet :
+
+   ```bash
+   git clone git clone https://github.com/rehamar1/test-eShop.git
+   cd test-eShop
